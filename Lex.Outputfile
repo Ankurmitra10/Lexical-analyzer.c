@@ -1,0 +1,51 @@
+Enter your code (end with a line containing only 'END'):
+int main(){
+int a = 5, b = 10;
+float sum = a + b;
+c = 20;  
+int 1var = 30;  
+char letter = "X";
+}
+END
+
+---- Tokens Detected ----
+[Keyword]        int
+[Identifier]     main
+[Delimiter]      (
+[Delimiter]      )
+[Delimiter]      {
+[Keyword]        int
+[Identifier]     a
+[Operator]       =
+[Integer Const]  5
+[Delimiter]      ,
+[Identifier]     b
+[Operator]       =
+[Integer Const]  10
+[Delimiter]      ;
+[Keyword]        float
+[Identifier]     sum
+[Operator]       =
+[Identifier]     a
+[Operator]       +
+[Identifier]     b
+[Delimiter]      ;
+[Identifier]     c
+[Operator]       =
+[Integer Const]  20
+[Delimiter]      ;
+[Keyword]        int
+[Invalid Token]  1var
+[Operator]       =
+[Integer Const]  30
+[Delimiter]      ;
+[Keyword]        char
+[Identifier]     letter
+[Operator]       =
+[String Literal] "X"
+[Identifier]     X
+[Delimiter]      ;
+[Delimiter]      }
+
+
+=== Code Execution Successful ===
