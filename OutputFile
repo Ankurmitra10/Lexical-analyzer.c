@@ -1,0 +1,9 @@
+Enter your code (end with a line containing only 'END'):
+int main(){
+int a = 5, b = 10;
+float sum = a + b;
+c = 20;  
+int 1var = 30;  
+char letter = "X";
+}
+END
